@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanaya Kundu-Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=DM+Sans:wght@500&family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f458b20924.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container1">
+            <nav id="navbar" class="navbar">
+                <div class="logo">
+                    <span><</span>
+                    <span style="color:#7C4DFF; font-size: 30px;">/</span>
+                    <span>> Tanaya</span>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <!-- <li><a href="#">Services</a></li> -->
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#contactform">Contact Me</a></li>
+                        
+                    </ul>
+                </div>
+            </nav>
+            <div class="content">
+                <div class="header-text">
+                    <h2>Hey there, I'm</h2>
+                    <h1>Tanaya Kundu</h1>
+                    <h2 style="letter-spacing:3px"><span style="color: #7C4DFF; font-size: 30px;">FRONTEND</span> DEVELOPER</h2>
+                    <span>I am passionate about building modern interfaces for the web.</span>
+
+                </div>
+
+                <div class="header-img">
+                    <img src="/images/homeimg.jpg">
+                </div>
+                <div class="side">
+                    <p style="white-space: nowrap;">Scroll down</p>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+    <!--ABOUT-->
+    <div id="about">
+        <div class="container2">
+            <div class="about-col-1">
+                <img src="./images/user-img1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h2 class="subtitle">About Me</h2>
+                <p class="desc">A passion of mine is Designing and solving problems with the help of User Experience, primarily on web UI.</p>
+                <div class="tab-titles">
+                    <h3 class="tab-links active-link" onclick="opentab('skills')">Skills</h3>
+                    <!--<p class="tab-links">Experience</p>-->
+                    <h3 class="tab-links" onclick="opentab('education')">Education</h3>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <div class="skill-list1">
+                        <div class="skill" id="skill1">
+                            <img src="./svgs/html.svg" style="margin-left: 10px;">
+                            <h4>HTML</h4>
+                        </div>
+                        <div class="skill" id="skill2">
+                            <img src="./svgs/css.svg">
+                            <h4>CSS</h4>
+                        </div>
+                        <div class="skill" id="skill3">
+                            <img src="./svgs/javascript.svg">
+                            <h4 style="font-size: 16px;">Javascript</h4>
+                        </div>
+                    </div>
+                    <div class="skill-list2">
+                        <div class="skill" id="skill4">
+                            <img src="/svgs/java.svg" style="margin-left: 10px;">
+                            <h4>Java</h4>
+                        </div>
+                        <div class="skill" id="skill5">
+                            <img src="./svgs/mysql.svg">
+                            <h4>MySQL</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>
+                            <div class="top">2021-Present</div><div class="desc">Master of Computer Application<br>Jadavpur University<br>CGPA : 8.76</div><hr class="line">
+                            <div class="top">2021</div><div class="desc">B.Sc(Hons) in Physics<br>Bethune College<br>CGPA : 7.814</div><hr class="line"> 
+                            <div class="top">2018</div><div class="desc">Indian School Certificate<br>Central Modern School<br>Percentage : 92.5%</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--SERVICES-->
+    <!-- <div id="services">
+        <div class="container3">
+            <h2 class="subtitle">My Services</h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquam deserunt ipsum officia libero dolorem cumque id incidunt sit cum eius laudantium impedit labore voluptatibus, vitae nulla ipsa amet doloremque?</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquam deserunt ipsum officia libero dolorem cumque id incidunt sit cum eius laudantium impedit labore voluptatibus, vitae nulla ipsa amet doloremque?</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!--PORTFOLIO-->
+    <div id="project">
+        <div style="margin-top: 40px;">
+            <h2 class="subtitle">Projects</h2>
+        </div>
+        
+        <div class="container3">
+            <div class="plist" id="work1">
+                <hr>
+                <div class="caption">
+                    <h3>Dummy 1</h3>
+                    <img src="./images/link.png" class="btn">
+                </div>
+                <img src="./images/img1.png">
+            </div>
+            <div class="plist" id="work2">
+                <hr>
+                <div class="caption">
+                    <h3>Portfolio Website</h3>
+                    <img src="./images/link.png" class="btn">
+                </div>
+                <img src="./images/home-1.png">
+            </div>
+            <div class="plist" id="work3">
+                <hr>
+                <div class="caption">
+                    <h3>Dummy 2</h3>
+                    <img src="./images/link.png" class="btn">
+                </div>
+                <img src="./images/img2.jpg">
+            </div>
+            
+            <!-- <img src="./images/img2.jpg"> -->
+        </div>
+    </div>
+
+    <!--Contact form-->
+    <div id="contactform">
+        
+        <div class="row">
+            
+            <div class="column-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>tanayakundu28@gmail.com</p>
+                <div class="social-icons">
+                    <a href="" class="icons"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="icons"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="icons"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+                <button class="btn">Download CV</button>
+            </div>
+            <div class="column-right">
+                <form>
+                    <div class="mb-3">
+                      <label for="clientname" class="form-label">Name</label>
+                      <input type="name" class="form-control" id="clientname" placeholder="Your name" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientemail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp" placeholder="Your email" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="client phone" class="form-label">Phone Number</label>
+                      <input type="phone" class="form-control" id="client phone" placeholder="Your phone" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="enquiry" class="form-label">Message</label>
+                        <textarea class="form-control" id="enquiry" rows="30" cols="50" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send</button>
+                  </form>
+            </div>
+        </div>
+        <hr style="border: 1px solid #2b2a2a; margin-top: 25px;">
+        <p style="text-align: center; font-size: 25px; padding:15px;"><span style="color: #7C4DFF;">- </span>Thanks for visiting<span style="color: #7C4DFF;"> -</span></p>
+        
+    </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("nav");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    })
+    
+</script>    
+</body>
+</html>
